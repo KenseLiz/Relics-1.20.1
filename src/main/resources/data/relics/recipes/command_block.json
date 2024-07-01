@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+
+  "pattern": [
+    "PRP",
+    "IAI",
+    "PIP"
+  ],
+
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "item": "relics:a_vontade_da_criacao"
+    }
+  },
+
+  "result": {
+    "item": "minecraft:command_block"
+  }
+
+}
