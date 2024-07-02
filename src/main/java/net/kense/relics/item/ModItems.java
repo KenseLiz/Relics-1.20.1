@@ -13,6 +13,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> A_VONTADE_DA_CRIACAO = ITEMS.register("a_vontade_da_criacao",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> TECHNO_FERRAMENTA_FUTURISTICA = ITEMS.register("techno_ferramenta_futuristica",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

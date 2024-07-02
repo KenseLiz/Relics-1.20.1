@@ -18,6 +18,7 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creativetab.relics_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.A_VONTADE_DA_CRIACAO.get());
+                        pOutput.accept(ModItems.TECHNO_FERRAMENTA_FUTURISTICA.get());
                     })
                     .build());
 
