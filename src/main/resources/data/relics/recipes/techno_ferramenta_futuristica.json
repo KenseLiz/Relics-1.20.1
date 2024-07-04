@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+
+  "pattern": [
+    "BCB",
+    "ISI",
+    "AUA"
+  ],
+
+  "key": {
+    "B": {
+      "item": "mekanism:brine_bucket"
+    },
+    "C": {
+      "item": "mekanism:configurator"
+    },
+    "I": {
+      "item": "mekanism:induction_casing"
+    },
+    "S": {
+      "item": "mekanism:sps_casing"
+    },
+    "A": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "U": {
+      "item": "mekanism:ultimate_induction_cell"
+    }
+  },
+
+  "result": {
+    "item": "relics:techno_ferramenta_futuristica"
+  }
+
+}
