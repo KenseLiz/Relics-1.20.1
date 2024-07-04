@@ -113,11 +113,18 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
     maven { url 'https://modmaven.dev/' }
+    maven {
+        url = "https://www.cursemaven.com"
+    }
 }
 
 dependencies {
 
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+
+    // Curse Mavens
+    implementation fg.deobf("curse.maven:titanium-287342:5468426")// Industrial Foregoing Libs
+    implementation fg.deobf("curse.maven:industrial-foregoing-266515:5474059")// Industrial Foregoing
 
     compileOnly "mekanism:Mekanism:1.20.1-10.4.8.43:api"
     runtimeOnly fg.deobf("mekanism:Mekanism:1.20.1-10.4.8.43")// Mekanism
