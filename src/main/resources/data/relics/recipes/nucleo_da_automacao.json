@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+
+  "ingredients": [
+    {
+      "item": "relics:a_engrenagem_do_mundo"
+    },
+    {
+      "item": "relics:techno_ferramenta_futuristica"
+    }
+  ],
+  "result": {
+    "item": "relics:nucleo_da_automacao"
+  }
+
+}
