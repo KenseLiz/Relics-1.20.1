@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+
+  "pattern": [
+    "DID",
+    "PMP",
+    "AGA"
+  ],
+
+  "key": {
+    "D": {
+      "item": "industrialforegoing:diamond_gear"
+    },
+    "I": {
+      "item": "industrialforegoing:iron_gear"
+    },
+    "G": {
+      "item": "industrialforegoing:gold_gear"
+    },
+    "P": {
+      "item": "industrialforegoing:pink_slime_ingot"
+    },
+    "M": {
+      "item": "industrialforegoing:mob_imprisonment_tool"
+    },
+    "A": {
+      "item": "industrialforegoing:machine_frame_advanced"
+    }
+  },
+
+  "result": {
+    "item": "relics:a_engrenagem_do_mundo"
+  }
+
+}
