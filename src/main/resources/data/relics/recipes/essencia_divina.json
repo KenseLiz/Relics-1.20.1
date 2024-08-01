@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+
+  "pattern": [
+    "BSG",
+    "FHV",
+    "PEO"
+  ],
+
+  "key": {
+    "B": {
+      "item": "aether:bronze_dungeon_key"
+    },
+    "S": {
+      "item": "aether:silver_dungeon_key"
+    },
+    "G": {
+      "item": "aether:gold_dungeon_key"
+    },
+    "F": {
+      "item": "aether:flaming_sword"
+    },
+    "H": {
+      "item": "aether:holy_sword"
+    },
+    "V": {
+      "item": "aether:vampire_blade"
+    },
+    "P": {
+      "item": "aether:gravitite_pickaxe"
+    },
+    "E": {
+      "item": "aether:healing_stone"
+    },
+    "O": {
+      "item": "aether:obsidian_chestplate"
+    }
+  },
+
+  "result": {
+    "item": "relics:essencia_divina"
+  }
+
+}

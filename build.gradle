@@ -85,11 +85,15 @@ minecraft {
         client {
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             property 'forge.enabledGameTestNamespaces', mod_id
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${buildDir}/createSrgToMcp/output.srg"
         }
 
         server {
             property 'forge.enabledGameTestNamespaces', mod_id
             args '--nogui'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${buildDir}/createSrgToMcp/output.srg"
         }
 
         // This run config launches GameTestServer and runs all registered gametests, then exits.
@@ -112,18 +116,29 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
-    maven { url 'https://modmaven.dev/' }
+    maven {
+        url 'https://modmaven.dev/' }
     maven {
         url = "https://www.cursemaven.com"
+        content {
+            includeGroup "curse.maven"}
+    }
+    maven {
+        name = "Illusive Soulworks maven"
+        url = "https://maven.theillusivec4.top/"
     }
 }
 
 dependencies {
 
-    minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+    minecraft 'net.minecraftforge:forge:1.20.1-47.3.3'
 
-    // Curse Mavens
-    implementation fg.deobf("curse.maven:titanium-287342:5468426")// Industrial Foregoing Libs
+    compileOnly(fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}:api"))// Compile against only the API artifact
+    runtimeOnly(fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}"))// Use the full Curios API jar at runtime
+
+    implementation fg.deobf("curse.maven:aether-255308:5302178")// The Aether
+
+    implementation fg.deobf("curse.maven:titanium-287342:5468426")// Industrial Foregoing Dep
     implementation fg.deobf("curse.maven:industrial-foregoing-266515:5474059")// Industrial Foregoing
 
     compileOnly "mekanism:Mekanism:1.20.1-10.4.8.43:api"

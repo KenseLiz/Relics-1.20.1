@@ -21,6 +21,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.TECHNO_FERRAMENTA_FUTURISTICA.get());
                         pOutput.accept(ModItems.A_ENGRENAGEM_DO_MUNDO.get());
                         pOutput.accept(ModItems.NUCLEO_DA_AUTOMACAO.get());
+                        pOutput.accept(ModItems.ESSENCIA_DIVINA.get());
                     })
                     .build());
 
