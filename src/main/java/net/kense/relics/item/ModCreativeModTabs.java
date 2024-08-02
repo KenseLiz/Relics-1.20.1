@@ -22,6 +22,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.A_ENGRENAGEM_DO_MUNDO.get());
                         pOutput.accept(ModItems.NUCLEO_DA_AUTOMACAO.get());
                         pOutput.accept(ModItems.ESSENCIA_DIVINA.get());
+                        pOutput.accept(ModItems.RUNA_DO_OCULTISMO.get());
                     })
                     .build());
 

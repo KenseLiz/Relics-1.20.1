@@ -21,6 +21,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ESSENCIA_DIVINA = ITEMS.register("essencia_divina",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RUNA_DO_OCULTISMO = ITEMS.register("runa_do_ocultismo",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

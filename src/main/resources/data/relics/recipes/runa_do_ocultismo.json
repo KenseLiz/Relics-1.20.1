@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+
+  "pattern": [
+    "BCB",
+    "HVS",
+    "BEB"
+  ],
+
+  "key": {
+    "B": {
+      "item": "vampirism:blood_infused_enhanced_iron_ingot"
+    },
+    "C": {
+      "item": "vampirism:crucifix_ultimate"
+    },
+    "H": {
+      "item": "vampirism:heart_seeker_enhanced"
+    },
+    "V": {
+      "item": "vampirism:vampire_clothing_crown"
+    },
+    "S": {
+      "item": "werewolves:silver_sword"
+    },
+    "E": {
+      "item": "vampirism:enhanced_tech_crossbow"
+    }
+  },
+
+  "result": {
+    "item": "relics:runa_do_ocultismo"
+  }
+
+}
