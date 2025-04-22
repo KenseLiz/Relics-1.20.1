@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+
+  "pattern": [
+    "NLH",
+    "KSM",
+    "QFA"
+  ],
+
+  "key": {
+    "N": {
+      "item":"twilightforest:naga_trophy"
+    },
+    "L": {
+      "item":"twilightforest:lich_trophy"
+    },
+    "H": {
+      "item":"twilightforest:hydra_trophy"
+    },
+    "K": {
+      "item":"twilightforest:knight_phantom_trophy"
+    },
+    "S": {
+      "item":"twilightforest:snow_queen_trophy"
+    },
+    "M": {
+      "item":"twilightforest:minoshroom_trophy"
+    },
+    "Q": {
+      "item":"twilightforest:quest_ram_trophy"
+    },
+    "F": {
+      "item":"twilightforest:ur_ghast_trophy"
+    },
+    "A": {
+      "item":"twilightforest:alpha_yeti_trophy"
+    }
+  },
+
+  "result": {
+    "item": "relics:coroa_do_crepusculo"
+  }
+
+}
