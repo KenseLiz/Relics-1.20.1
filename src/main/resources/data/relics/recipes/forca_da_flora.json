@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+
+  "pattern": [
+    "TTT",
+    "AMA",
+    "@GE"
+  ],
+
+  "key": {
+    "T": {
+      "item":"botania:terrasteel_ingot"
+    },
+    "A": {
+      "item":"mythicbotany:alfsteel_pylon"
+    },
+    "M": {
+      "item":"mythicbotany:mjoellnir"
+    },
+    "@": {
+      "item":"mythicbotany:alfsteel_ingot"
+    },
+    "G": {
+      "item":"botania:gaia_ingot"
+    },
+    "E": {
+      "item":"botania:elementium_ingot"
+    }
+  },
+
+  "result": {
+    "item": "relics:forca_da_flora"
+  }
+
+}

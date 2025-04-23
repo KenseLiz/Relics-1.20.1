@@ -25,6 +25,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> COROA_DO_CREPUSCULO = ITEMS.register("coroa_do_crepusculo",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> FORCA_DA_FLORA = ITEMS.register("forca_da_flora",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

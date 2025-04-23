@@ -133,6 +133,12 @@ dependencies {
 
     minecraft 'net.minecraftforge:forge:1.20.1-47.3.3'
 
+    implementation fg.deobf("curse.maven:libx-412525:4947474") // Libx
+    implementation fg.deobf("curse.maven:curios-309927:6418456") // Curious
+    implementation fg.deobf("curse.maven:mythicbotany-400058:5101899")// MythicBotany
+    implementation fg.deobf("curse.maven:patchouli-306770:6164575")// Patchouli
+    implementation fg.deobf("curse.maven:botania-225643:6366547")// Botania
+
     implementation fg.deobf("curse.maven:the-twilight-forest-227639:5468648")// The Twilight Forest
 
     implementation fg.deobf("curse.maven:vampirism-become-a-vampire-233029:5526512")// Vampirism
