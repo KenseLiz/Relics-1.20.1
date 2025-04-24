@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+
+  "pattern": [
+    "RWR",
+    "CBY",
+    "GDG"
+  ],
+
+  "key": {
+    "R": {
+      "item": "deeperdarker:reinforced_echo_shard"
+    },
+    "W": {
+      "item": "deeperdarker:warden_upgrade_smithing_template"
+    },
+    "C": {
+      "item": "deeperdarker:warden_carapace"
+    },
+    "B": {
+      "item": "deeperdarker:sculk_bone"
+    },
+    "Y": {
+      "item": "deeperdarker:soul_crystal"
+    },
+    "G": {
+      "item": "deeperdarker:grime_brick"
+    },
+    "D": {
+      "item": "deeperdarker:soul_dust"
+    }
+  },
+
+  "result": {
+    "item": "relics:amalgamacao_das_profundezas"
+  }
+
+}

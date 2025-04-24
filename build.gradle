@@ -133,6 +133,8 @@ dependencies {
 
     minecraft 'net.minecraftforge:forge:1.20.1-47.3.3'
 
+    implementation fg.deobf("curse.maven:deeperdarker-659011:5906086") // Deeper and Darker
+
     implementation fg.deobf("curse.maven:libx-412525:4947474") // Libx
     implementation fg.deobf("curse.maven:curios-309927:6418456") // Curious
     implementation fg.deobf("curse.maven:mythicbotany-400058:5101899")// MythicBotany

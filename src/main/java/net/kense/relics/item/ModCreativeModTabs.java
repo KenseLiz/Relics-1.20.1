@@ -25,6 +25,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.RUNA_DO_OCULTISMO.get());
                         pOutput.accept(ModItems.COROA_DO_CREPUSCULO.get());
                         pOutput.accept(ModItems.FORCA_DA_FLORA.get());
+                        pOutput.accept(ModItems.AMALGACAO_DAS_PROFUNDEZAS.get());
                     })
                     .build());
 
